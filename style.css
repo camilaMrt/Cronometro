@@ -29,9 +29,8 @@ figure {
     color: white;
     width: 280px;
     height: 50px;
-    padding-top: 5px;
+    padding: 6px 0 0 17px;
     border-radius: 6px;
-    text-align: center;
 }
 
 .numeros {
@@ -40,7 +39,7 @@ figure {
     font-size: 30px;
 }
 
-.numeroAzul {
+.numeroMili {
     color: #0075DC;
 }
 
@@ -57,11 +56,20 @@ figure {
     cursor: pointer;
     border: none;
     border-radius: 4px;
+    font-weight: 500;
+    transition: .5s ease;
 }
 
 .botoes:hover {
+    color: rgba(255, 255, 255, 0.678);
     background-color: #0075DC;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
+    font-weight: lighter;
+
+}
+
+.ativo {
+    color: rgba(255, 255, 255, 0.678);
+    opacity: 0.4;
+    background-color: #0075DC;
+    font-weight: lighter;
 }
